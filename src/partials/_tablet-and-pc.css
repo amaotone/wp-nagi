@@ -1,0 +1,393 @@
+@media only screen and (min-width: 600px) {
+
+    header {
+        text-align: left;
+    }
+
+    #headbox {
+        padding: 0 10px;
+        margin: 0 -10px;
+    }
+
+    #headbox {
+        text-align: center;
+    }
+
+    #headbox img {
+        margin: 0 auto;
+    }
+
+    .sitename img {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    main {
+        background-color: #fff;
+        padding: 20px 30px;
+    }
+
+    .st-eyecatch {
+        margin: -20px -30px 20px;
+    }
+
+    /*任意のおすすめ記事トップのアイキャッチあり*/
+    .nowhits-eye .pop-box {
+        margin: -21px 0 20px;
+    }
+
+    /*フロントページの場合*/
+    .nowhits-front .pop-box {
+        position: relative;
+        margin: -21px 0 20px;
+        border-top: solid 2px #FEB20A;
+    }
+
+    .nowhits.hits-front-eye .pop-box {
+        margin: -21px 0 20px;
+    }
+
+    /*--------------------------------
+    フリーのウィジェットボックス
+    ---------------------------------*/
+    .freebox {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    /*--------------------------------
+    各フォント設定
+    ---------------------------------*/
+    p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    dd p {
+        margin-bottom: 5px;
+    }
+
+    /*記事タイトル*/
+    .entry-title {
+        font-size: 27px;
+        line-height: 40px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .entry-title a:hover {
+        text-decoration: underline;
+    }
+
+    /*中見出し*/
+    h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    h2:after {
+        bottom: -10px;
+        left: 50px;
+    }
+
+    h2:before {
+        bottom: -10px;
+        left: 50px;
+    }
+
+    /*小見出し*/
+    .post h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .post h4 {
+        padding: 10px 15px;
+        margin-bottom: 20px;
+        background-color: #f3f3f3;
+        font-size: 21px;
+        line-height: 31px;
+    }
+
+    .post h5 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    /*リスト */
+    .post ul li {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .post ol li {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    /*トップ記事一覧*/
+    dd h3 a {
+        color: #333;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .kanren .clearfix dd p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /*関連記事タイトルサムネイルなし*/
+    .kanren .no-thumbitiran h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /* 任意記事サムネイルありタイトル名 */
+    .kanren.pop-box dd h5, #side .kanren.pop-box dd h5 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    /*サイドバーの記事タイトル*/
+    #side h5 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    /*サイドバー文字*/
+    #side aside h4 {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    #side aside #mybox ul li ul li {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    /* オリジナルスタイルタブレット */
+    .oomozi {
+        font-size: 18pt;
+        line-height: 35px;
+    }
+
+    .yellowbox {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .redbox {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .graybox {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .h2fuu {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .h2fuu:after {
+        bottom: -10px;
+        left: 50px;
+    }
+
+    .h2fuu:before {
+        bottom: -10px;
+        left: 50px;
+    }
+
+    /*アドセンス*/
+    .adbox {
+        margin: 0;
+    }
+
+    .ad {
+        padding-bottom: 10px;
+        margin: 0px;
+    }
+
+    /*レスポンシブ用PC左右コンテンツ*/
+    .responbox .lbox img {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /*30%*/
+    .responbox30 .lbox {
+        float: left;
+        padding-right: 15px;
+        width: 30%;
+        box-sizing: border-box;
+    }
+
+    .responbox30 .rbox {
+        float: left;
+        box-sizing: border-box;
+        width: 70%;
+    }
+
+    /*40%*/
+    .responbox .lbox {
+        float: left;
+        padding-right: 15px;
+        width: 40%;
+        box-sizing: border-box;
+    }
+
+    .responbox .rbox {
+        float: left;
+        box-sizing: border-box;
+        width: 60%;
+    }
+
+    /*50%*/
+    .responbox50 .lbox {
+        float: left;
+        padding-right: 7px;
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .responbox50 .rbox {
+        float: left;
+        padding-left: 7px;
+        box-sizing: border-box;
+        width: 50%;
+    }
+
+    /*60%*/
+    .responbox60 .lbox {
+        float: left;
+        padding-right: 15px;
+        width: 60%;
+        box-sizing: border-box;
+    }
+
+    .responbox60 .rbox {
+        float: left;
+        box-sizing: border-box;
+        width: 40%;
+    }
+
+    /*70%*/
+    .responbox70 .lbox {
+        float: left;
+        padding-right: 15px;
+        width: 70%;
+        box-sizing: border-box;
+    }
+
+    .responbox70 .rbox {
+        float: right;
+        box-sizing: border-box;
+        width: 30%;
+    }
+
+    /*--------------------------------
+    NEWS（お知らせ）
+    ---------------------------------*/
+    #topnews-box div {
+        padding: 0 10px 10px;
+    }
+
+    #topnews-box div.rss-bar {
+        font-size: 14px;
+
+    }
+
+    #topnews-box dt {
+        font-size: 14px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        float: left;
+        width: 90px;
+        clear: both;
+    }
+
+    #topnews-box dd {
+        padding-left: 100px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    #topnews-box div dl dd a {
+        text-decoration: none;
+    }
+
+    /*--------------------------------
+    一覧記事表示部分
+    ---------------------------------*/
+    #topnews dt {
+        float: left;
+        width: 150px;
+    }
+
+    #topnews dt img {
+        width: 100%;
+    }
+
+    #topnews dd {
+        padding-left: 170px;
+    }
+
+    #topnews .clearfix dd h5 {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+
+    #topnews .clearfix dd p {
+        font-size: 13px;
+        color: #666;
+        line-height: 24px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #topnews .clearfix dd h5 a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    /*-------------------------------------
+    カラム1適用
+    --------------------------------------*/
+    .colum1 #side {
+        display: none;
+    }
+
+    .colum1 main {
+        margin: 0px -10px;
+        padding: 30px;
+    }
+
+    .colum1 .st-pagelink {
+        display: none;
+    }
+
+    .colum1 .st-eyecatch {
+        margin: -30px -50px 0px;
+    }
+
+    /*ウィジェット問合せフォーム*/
+    .post .st-formbtn {
+        width: 60%;
+        margin: 20px auto;
+    }
+}

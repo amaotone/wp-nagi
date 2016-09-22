@@ -1,0 +1,26 @@
+{
+  "name": "nagi",
+  "version": "0.0.1",
+  "description": "A simple wordpress theme (based on Stinger+)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "wp-nagi"
+  },
+  "author": "sakueji",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "cssnano": "^3.7.5",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2",
+    "postcss-nested": "^1.0.0",
+    "postcss-partial-import": "^2.0.0",
+    "precss": "^1.4.0"
+  }
+}

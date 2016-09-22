@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*---------------------------------------------------------
+Theme Name: nagi
+Theme URI: http://sakueji.com
+Description:
+Author: sakueji
+Author URI: http://sakueji.com
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.htm
+Tags: custom-header, custom-menu
+Text Domain: nagi
+Version: 0.0.1
+---------------------------------------------------------*/
+
+@import "partials/base";
+@import "partials/pc";
+@import "partials/phone-and-tablet";
+@import "partials/tablet-and-pc";
