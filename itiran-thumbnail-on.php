@@ -17,12 +17,9 @@
 					<p><i class="fa fa-clock-o"></i>
 						<?php the_time( 'Y/m/d' ); ?>
 						&nbsp;<span class="pcone">
-							<i class="fa fa-folder-open-o" aria-hidden="true"></i>-<?php the_category( ', ' ) ?><br/>
+							<i class="fa fa-folder-open-o" aria-hidden="true"></i>&nbsp;<?php the_category( ', ' ) ?><br/>
 							<?php the_tags( '<i class="fa fa-tags"></i>&nbsp;', ', ' ); ?>
           </span></p>
-				</div>
-				<div class="smanone2">
-					<?php the_excerpt(); //抜粋文 ?>
 				</div>
 			</dd>
 		</dl>
