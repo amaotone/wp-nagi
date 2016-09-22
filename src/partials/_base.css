@@ -2,7 +2,6 @@
     font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
     margin: 0px;
     padding: 0px;
-    color: #444;
 }
 
 /* Googleフォントの反映箇所
@@ -32,6 +31,8 @@ main, article, aside, header, canvas, details, figcaption, figure, footer, nav, 
 html,
 body {
     height: 100%;
+    font-size: 16px;
+    color: #444;
 }
 
 body {
@@ -204,8 +205,7 @@ code {
 ---------------------------------*/
 /* 基本の文字 */
 p {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
@@ -296,37 +296,18 @@ header .descr {
 
 /* 中見出し */
 h2 {
-    font-family: Helvetica, "游ゴシック", "Yu Gothic", sans-serif;
-    background: #f3f3f3;
-    color: #1a1a1a;
-    font-size: 20px;
-    line-height: 27px;
-    margin-bottom: 25px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    border-top: 2px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    background-color: #f0f0f0;
+    padding: 10px 5px;
+    margin: 20px 0 10px 0;
+    font-size: 21px;
 }
 
 /*小見出し*/
 .post h3 {
-    font-family: Helvetica, "游ゴシック", "Yu Gothic", sans-serif;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
     font-size: 18px;
-    line-height: 27px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    color: #1a1a1a;
-    line-height: 27px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    margin-left: 0px;
-    border-bottom: 1px #999999 dotted;
 }
 
 h3 a {
@@ -1411,30 +1392,16 @@ img.float-right {
 /*リスト */
 .post ul {
     list-style-type: disc;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 30px;
+    list-style-position: inside;
+    padding: 10px 0 10px 20px;
     margin-bottom: 20px;
-}
-
-.post ul li {
-    font-size: 17px;
-    line-height: 26px;
 }
 
 .post ol {
     list-style-type: decimal;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    padding-left: 30px;
+    list-style-position: inside;
+    padding: 10px 0 10px 20px;
     margin-bottom: 20px;
-}
-
-.post ol li {
-    font-size: 17px;
-    line-height: 26px;
 }
 
 /*フォーム*/
@@ -2293,39 +2260,6 @@ section {
     max-width: 100%;
     box-sizing: border-box;
     overflow: hidden;
-}
-
-/*-------------------------------------
-カラム1適用
---------------------------------------*/
-.colum1 #side {
-}
-
-.colum1 .st-eyecatch {
-    margin: -20px -15px 0px;
-}
-
-.colum1 .st-eyecatch img {
-    border-radius: 0;
-}
-
-/*LP化--------------------------------*/
-.lp header, .lp #gazou, .lp #itiran, .lp .kanren, .lp #breadcrumb, .lp nav, .lp .blogbox, .lp .tagst, .lp .point, .lp .p-navi, .lp .pagination {
-    display: none;
-}
-
-.lp .entry-title {
-    font-size: 13px;
-    color: #ccc;
-    line-height: 18px;
-}
-
-.lp post img, .lp post video, .lp post object, {
-    width: 100%;
-    height: auto;
-    border: none;
-    vertical-align: bottom;
-    display: block;
 }
 
 /* IEのみ
