@@ -1,0 +1,11 @@
+language: php
+sudo: false
+php:
+    - "5.4"
+before_script:
+    - nvm install 4.2
+    - npm install
+script:
+    - find . \( -name '*.php' \) -exec php -lf {} \;
+after_success:
+    - run npm dist
