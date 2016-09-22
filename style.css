@@ -18,7 +18,9 @@ Version: 0.0.1
 
     margin: 0px;
 
-    padding: 0px
+    padding: 0px;
+
+    color: #444
 }
 
 /* Googleフォントの反映箇所
@@ -320,7 +322,7 @@ header .sitename{
 
 header .sitename a{
 
-    color: #333;
+    color: #444;
 
     text-decoration: none;
 
@@ -407,7 +409,7 @@ header .descr{
 
     line-height: 35px;
 
-    color: #333;
+    color: #444;
 
     margin-bottom: 10px
 }
@@ -424,7 +426,7 @@ header .descr{
 
 .entry-title a{
 
-    color: #333;
+    color: #444;
 
     text-decoration: none
 }
@@ -495,7 +497,7 @@ h2{
 
 h3 a{
 
-    color: #333;
+    color: #444;
 
     text-decoration: none
 }
@@ -507,7 +509,7 @@ dd h3{
 
 dd h3 a{
 
-    color: #333;
+    color: #444;
 
     text-decoration: none;
 
@@ -1408,7 +1410,7 @@ footer .head-telno a{
 
 #topnews .clearfix dd h5 a{
 
-    color: #333;
+    color: #444;
 
     text-decoration: none
 }
@@ -1995,7 +1997,7 @@ table th{
 
     border-right-color: #999;
 
-    color: #333
+    color: #444
 }
 
 /*テーブル（装飾なし） */
@@ -2276,7 +2278,7 @@ nav li a:hover{
 
     font-size: 25px;
 
-    color: #333;
+    color: #444;
 
     padding: 7px 10px;
 
@@ -2382,7 +2384,7 @@ nav.st5{
 
     height: 34px;
 
-    color: #333;
+    color: #444;
 
     font-size: 14px;
 
@@ -2917,7 +2919,7 @@ PAGE TOP
 
 #comments p a{
 
-    color: #333
+    color: #444
 }
 
 .post #comments h3{
@@ -2935,7 +2937,7 @@ PAGE TOP
 
     margin: 0px;
 
-    color: #333;
+    color: #444;
 
     padding: 5px 0
 }
@@ -2947,7 +2949,7 @@ PAGE TOP
 
 .metadata dd a{
 
-    color: #333
+    color: #444
 }
 
 .metadata{
@@ -2963,7 +2965,7 @@ PAGE TOP
 
     line-height: 24px;
 
-    color: #333;
+    color: #444;
 
     padding-top: 10px;
 
@@ -3228,7 +3230,7 @@ NEWS（お知らせ）
 
 .rss-bar a{
 
-    color: #333;
+    color: #444;
 
     text-decoration: none
 }
@@ -3261,7 +3263,7 @@ NEWS（お知らせ）
 
 #topnews-box div dl dd a{
 
-    color: #333;
+    color: #444;
 
     text-decoration: none
 }

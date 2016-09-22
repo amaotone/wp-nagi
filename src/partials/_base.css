@@ -2,6 +2,7 @@
     font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
     margin: 0px;
     padding: 0px;
+    color: #444;
 }
 
 /* Googleフォントの反映箇所
@@ -219,7 +220,7 @@ header .sitename {
 }
 
 header .sitename a {
-    color: #333;
+    color: #444;
     text-decoration: none;
     font-weight: bold;
 }
@@ -276,7 +277,7 @@ header .descr {
     font-family: Helvetica, "游ゴシック", "Yu Gothic", sans-serif;
     font-size: 24px;
     line-height: 35px;
-    color: #333;
+    color: #444;
     margin-bottom: 10px;
 }
 
@@ -289,7 +290,7 @@ header .descr {
 }
 
 .entry-title a {
-    color: #333;
+    color: #444;
     text-decoration: none;
 }
 
@@ -329,7 +330,7 @@ h2 {
 }
 
 h3 a {
-    color: #333;
+    color: #444;
     text-decoration: none;
 }
 
@@ -338,7 +339,7 @@ dd h3 {
 }
 
 dd h3 a {
-    color: #333;
+    color: #444;
     text-decoration: none;
     font-size: 16px;
 }
@@ -923,7 +924,7 @@ footer .head-telno a {
 }
 
 #topnews .clearfix dd h5 a {
-    color: #333;
+    color: #444;
     text-decoration: none;
 }
 
@@ -1324,7 +1325,7 @@ table th {
     border-right-style: solid;
     border-top-color: #999;
     border-right-color: #999;
-    color: #333;
+    color: #444;
 }
 
 /*テーブル（装飾なし） */
@@ -1519,7 +1520,7 @@ nav li a:hover {
 #s-navi dt.trigger .op {
     font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
     font-size: 25px;
-    color: #333;
+    color: #444;
     padding: 7px 10px;
     background: #000;
     display: block;
@@ -1589,7 +1590,7 @@ nav.st5 {
 #s {
     font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
     height: 34px;
-    color: #333;
+    color: #444;
     font-size: 14px;
     border-radius: 0;
     border-top-style: none;
@@ -1949,7 +1950,7 @@ PAGE TOP
 コメント
 ---------------------------------*/
 #comments p a {
-    color: #333;
+    color: #444;
 }
 
 .post #comments h3 {
@@ -1961,7 +1962,7 @@ PAGE TOP
     font-weight: normal;
     line-height: 24px;
     margin: 0px;
-    color: #333;
+    color: #444;
     padding: 5px 0;
 }
 
@@ -1970,7 +1971,7 @@ PAGE TOP
 }
 
 .metadata dd a {
-    color: #333;
+    color: #444;
 }
 
 .metadata {
@@ -1981,7 +1982,7 @@ PAGE TOP
 #comments {
     font-size: 14px;
     line-height: 24px;
-    color: #333;
+    color: #444;
     padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
@@ -2157,7 +2158,7 @@ NEWS（お知らせ）
 }
 
 .rss-bar a {
-    color: #333;
+    color: #444;
     text-decoration: none;
 }
 
@@ -2178,7 +2179,7 @@ NEWS（お知らせ）
 }
 
 #topnews-box div dl dd a {
-    color: #333;
+    color: #444;
     text-decoration: none;
 }
 
