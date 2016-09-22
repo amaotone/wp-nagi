@@ -68,6 +68,10 @@
         margin-top: 80px;
     }
 
+    .post h3 {
+        margin-top: 40px;
+    }
+
     /*トップ記事一覧*/
     dd h3 a {
         color: #333;

@@ -2176,7 +2176,7 @@ NEWS（お知らせ）
 /*レイアウト スマートフォン
 ----------------------------------------------------*/
 #wrapper {
-    max-width: 1060px;
+    max-width: 980px;
     padding: 0 10px;
     margin: 0 auto;
     overflow: hidden;
