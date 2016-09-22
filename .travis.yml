@@ -1,0 +1,14 @@
+language: php
+sudo: false
+php:
+- '5.4'
+before_script:
+- nvm install 4.2
+- npm install
+script:
+- find . \( -name '*.php' \) -exec php -lf {} \;
+after_success:
+- bash ./bin/deploy.sh
+env:
+  global:
+    secure: P0pHbalKLAEuAhGsi56VE2kPcc9Bm97aBvDJBmUns+PUeixaTCehLDG5YhO2JQwdnyk00Up39sKGdiI3fJLS6e6R/z7dFO6oVpTbAqDebKvFiu0j+JzSNU3NlmFqsqynydky8Q40iU7br21yCY4Y1OYFNlWJ0QCNqHPL6Z+i8J9gch5iz7exQfS9bZXr6jtfquh8mH4eqTanhZgUp0rk6/qtiJGMsMVybS2cpksC/h6Sa3LE1Nw2HHSNwa9xpg6BL8DgO33kyw71gUEsCsRcKqsB1UpeINUK3IHu74gVrGAOEGc6Eo9qMHfi/S4X+qeDYi/Oad1eYhBymOwnQm2bN+jEr3KQXvV1b4DONB2VBvIu4rHeHgIbokRYbvvbo6bslF91fht++AKTpbnPH/ffZZ8AKVS5VeBRscu6BGebMMgh0PmdQA92PLSvQZuB949DdUr7xT3wFFh2SAWqn+DBvfJhO/pk3t++1N3DZxO7WeuSOn5GCxCstfIsJupNJkv25IbgDzuAZH4zgIqcKTMgvDTw6AJo+5Y463l4khMWdPDbApy6cycvZicJf6J8qrF95ZibnAozqA3u5O5tKaU5HD5xwtsQffZcDu1AqSaP/f4YuEQwvcrOyCrOjkGfSuoF8Q/wPxo1wpdJyQGf/kkF8LyqREp1fJjoqEvZXALlHEc=

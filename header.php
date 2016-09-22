@@ -12,7 +12,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" >
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 		<meta name="format-detection" content="telephone=no" >
-		
+
 		<?php if ( is_home() && !is_paged() ): ?>
 			<meta name="robots" content="index,follow">
 		<?php elseif ( is_search() or is_404() ): ?>
@@ -42,7 +42,7 @@
 
 	</head>
 	<body <?php body_class(); ?> >
-	
+
 		<div id="wrapper" class="<?php st_wrap_class(); ?>">
 			<header id="<?php st_head_class(); ?>">
 			<div class="clearfix" id="headbox">
@@ -88,12 +88,9 @@
 			</div><!-- /#header-l -->
 			<div id="header-r" class="smanone">
 				<?php if ( isset($GLOBALS['stdata43']) && $GLOBALS['stdata43'] === 'yes' ) {
-					get_template_part( 'st-footer-link' ); //フッターリンク 
+					get_template_part( 'st-footer-link' ); //フッターリンク
 				} ?>
 				<?php get_template_part( 'st-header-widget' ); //電話番号とヘッダー用ウィジェット ?>
 			</div><!-- /#header-r -->
 			</div><!-- /#clearfix -->
-
-				<?php get_template_part( 'st-header-image' ); //カスタムヘッダー画像 ?>
-
 			</header>

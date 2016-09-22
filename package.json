@@ -21,6 +21,7 @@
     "postcss-import": "^8.1.2",
     "postcss-nested": "^1.0.0",
     "postcss-partial-import": "^2.0.0",
-    "precss": "^1.4.0"
+    "precss": "^1.4.0",
+    "run-sequence": "^1.2.2"
   }
 }
