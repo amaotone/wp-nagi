@@ -1,0 +1,32 @@
+.st-pagelink {
+    padding: 20px 0;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: #444;
+        &:hover {
+            border: 3px solid #ccc;
+        }
+    }
+
+    .current {
+        background-color: #ccc;
+    }
+}
+
+.page-numbers {
+    font-weight: bold;
+    font-size: 11px;
+    display: inline-block;
+    line-height: 34px;
+    size: 40px 40px;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+}
+
+a.page-numbers {
+
+}
