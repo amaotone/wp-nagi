@@ -3,10 +3,11 @@ var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 var runSequence = require('run-sequence');
 
-gulp.task('build:dist', function() {
+gulp.task('build', function() {
     var plugins = [
         require('postcss-partial-import'),
-        require('postcss-nested')
+        require('postcss-nested'),
+        require('postcss-size')
     ];
     return gulp.src('./src/*.css')
         .pipe(postcss(plugins))
@@ -33,11 +34,11 @@ gulp.task('copy', function() {
 
 
 gulp.task('watch', function() {
-    gulp.watch('./src/**/*.css', ['build:dist']);
+    gulp.watch('./src/**/*.css', ['build']);
 });
 
-gulp.task('default', ['build:dist']);
+gulp.task('default', ['build']);
 
 gulp.task('dist', function(callback) {
-    return runSequence('build:dist', 'copy', callback);
+    return runSequence('build', 'copy', callback);
 });

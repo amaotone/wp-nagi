@@ -16,3 +16,5 @@ Version: 0.0.1
 @import "partials/pc";
 @import "partials/phone-and-tablet";
 @import "partials/tablet-and-pc";
+
+@import "components/pagination";
