@@ -16,15 +16,11 @@
 	if ( $st_query->have_posts() ): ?>
 		<?php
 		while ( $st_query->have_posts() ) : $st_query->the_post(); ?>
-			
+
 		<div class="no-thumbitiran">
 			<h5><a href="<?php the_permalink(); ?>">
 			<?php the_title(); ?>
 			</a></h5>
-
-			<div class="smanone2">
-				<?php the_excerpt(); //抜粋文 ?>
-			</div>
 		</div>
 
 		<?php endwhile; ?>

@@ -24,10 +24,6 @@
 					<h5><a href="<?php the_permalink(); ?>">
 							<?php the_title(); ?>
 						</a></h5>
-
-					<div class="smanone2">
-						<?php the_excerpt(); //抜粋文 ?>
-					</div>
 				</dd>
 			</dl>
 		<?php endwhile; ?>
