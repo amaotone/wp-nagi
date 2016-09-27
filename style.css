@@ -547,8 +547,6 @@ dd h3 a{
 
     font-size: 15px;
 
-    line-height: 25px;
-
     margin-bottom: 5px;
 }
 
@@ -1414,11 +1412,6 @@ footer .head-telno a{
 関連記事表示部分
 ---------------------------------*/
 
-.kanren{
-
-    padding-top: 10px;
-}
-
 .kadomaru img{
 
     border-radius: 100px;
@@ -1590,11 +1583,6 @@ footer .head-telno a{
     -moz-opacity: 0.8;
 
     opacity: 0.8;
-}
-
-#scrollad{
-
-    padding: 20px 0;
 }
 
 /*--------------------------------
@@ -3311,7 +3299,7 @@ section{
 
     display: block;
 
-    background-color: #fff;
+    background-color: rgba(255,255,255,.7);
 
     width: 100%;
 
@@ -3330,12 +3318,69 @@ section{
 
 .cat-item a:hover{
 
-    background-color: #f0f0f0;
+    background-color: rgba(255,255,255,.3);
 }
 
 .cat-item:nth-child(2n){
 
     padding-right: 0;
+}
+
+#side .kanren dl{
+
+    background-color: rgba(255,255,255,.7);
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    border: none;
+}
+
+#side .kanren dl dd{
+
+    padding-left: 100px;
+
+    height: 100px;
+}
+
+#side .kanren dl dd a{
+
+    box-sizing: border-box;
+
+    display: inline-block;
+
+    padding: 10px;
+
+    width: 100%;
+
+    height: 100px;
+
+    color: #444;
+}
+
+#side .kanren dl h5{
+
+    font-size: 13px;
+
+    display: block;
+
+    margin: 0;
+}
+
+#side .kanren dl:last-child{
+
+    margin-bottom: 0;
+}
+
+#side .kanren dl:hover{
+
+    background-color: rgba(255,255,255,.3);
+}
+
+#side .kanren dl:hover img{
+
+    opacity: .3;
 }
 @media print, screen and (min-width: 960px){
 
