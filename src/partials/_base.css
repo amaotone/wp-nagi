@@ -1013,15 +1013,11 @@ footer .head-telno a {
 サイドバー
 ---------------------------------*/
 #side aside ul li {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    list-style-type: none
 }
 
 #side aside ul li ul li {
     list-style-type: none;
-    margin: 0px;
-
 }
 
 #side aside .sub-menu {
@@ -2219,4 +2215,36 @@ section {
         color: #ccc;
         padding-top: 7px;
     }
+}
+
+#mybox ul li ul {
+    overflow: hidden;
+}
+
+.cat-item {
+    padding: 0 10px 10px 0;
+    width: 50%;
+    box-sizing: border-box;
+    float:left;
+    text-align: center;
+
+    a {
+        display: block;
+        background-color: #fff;
+        width: 100%;
+        text-decoration: none;
+        color: #444;
+        font-size: 13px;
+        font-weight: bold;
+        height: 32px;
+        line-height: 32px;
+
+        &:hover {
+            background-color: #f0f0f0;
+        }
+    }
+}
+
+.cat-item:nth-child(2n) {
+    padding-right: 0;
 }
