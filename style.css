@@ -1364,8 +1364,6 @@ footer .head-telno a{
     font-size: 16px;
 
     color: #666;
-
-    line-height: 26px;
 }
 
 #topnews .clearfix dd h5 a{
@@ -1529,21 +1527,9 @@ footer .head-telno a{
 
 #side aside h4{
 
-    font-size: 14px;
+    font-size: 16px;
 
     font-weight: bold;
-
-    line-height: 24px;
-
-    margin: 0px;
-
-    padding-top: 10px;
-
-    padding-right: 10px;
-
-    padding-bottom: 10px;
-
-    padding-left: 0px;
 }
 
 #side aside #mybox ul li ul li{
@@ -3299,8 +3285,6 @@ section{
 
     display: block;
 
-    background-color: rgba(255,255,255,.7);
-
     width: 100%;
 
     text-decoration: none;
@@ -3314,11 +3298,15 @@ section{
     height: 32px;
 
     line-height: 32px;
+
+    opacity: .7;
+
+    background-color: #fff;
 }
 
 .cat-item a:hover{
 
-    background-color: rgba(255,255,255,.3);
+    opacity: 1;
 }
 
 .cat-item:nth-child(2n){
@@ -3328,13 +3316,15 @@ section{
 
 #side .kanren dl{
 
-    background-color: rgba(255,255,255,.7);
+    background-color: #fff;
 
     margin: 0 0 10px 0;
 
     padding: 0;
 
     border: none;
+
+    opacity: .7;
 }
 
 #side .kanren dl dd{
@@ -3375,12 +3365,33 @@ section{
 
 #side .kanren dl:hover{
 
-    background-color: rgba(255,255,255,.3);
+    opacity: 1;
 }
 
-#side .kanren dl:hover img{
+.menu_underh2{
 
-    opacity: .3;
+    opacity: .8;
+
+    padding: 10px 0;
+}
+
+.textwidget{
+
+    background-color: #fff;
+
+    padding: 10px;
+
+    opacity: .7;
+}
+
+.textwidget:hover{
+
+    opacity: 1;
+}
+
+#side .kanren, #side #mybox ul{
+
+    margin-bottom: 20px;
 }
 @media print, screen and (min-width: 960px){
 
@@ -3705,8 +3716,6 @@ section{
     #side h5{
 
         font-size: 16px;
-
-        line-height: 26px;
 
         margin-bottom: 5px;
     }
@@ -4391,16 +4400,12 @@ section{
     .kanren .clearfix dd p{
 
         font-size: 16px;
-
-        line-height: 26px;
     }
     /*関連記事タイトルサムネイルなし*/
 
     .kanren .no-thumbitiran h3{
 
         font-size: 16px;
-
-        line-height: 26px;
     }
     /* 任意記事サムネイルありタイトル名 */
 
@@ -4414,16 +4419,12 @@ section{
 
     #side aside h4{
 
-        font-size: 17px;
-
-        line-height: 26px;
+        font-size: 16px;
     }
 
     #side aside #mybox ul li ul li{
 
-        font-size: 17px;
-
-        line-height: 26px;
+        font-size: 16px;
     }
     /* オリジナルスタイルタブレット */
 
