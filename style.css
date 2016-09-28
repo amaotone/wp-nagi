@@ -3375,7 +3375,7 @@ section{
     padding: 10px 0;
 }
 
-.textwidget{
+#side .textwidget{
 
     background-color: #fff;
 
@@ -3384,7 +3384,7 @@ section{
     opacity: .7;
 }
 
-.textwidget:hover{
+#side .textwidget:hover{
 
     opacity: 1;
 }
