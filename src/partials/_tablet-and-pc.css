@@ -82,13 +82,11 @@
 
     .kanren .clearfix dd p {
         font-size: 16px;
-        line-height: 26px;
     }
 
     /*関連記事タイトルサムネイルなし*/
     .kanren .no-thumbitiran h3 {
         font-size: 16px;
-        line-height: 26px;
     }
 
     /* 任意記事サムネイルありタイトル名 */
@@ -99,13 +97,11 @@
 
     /*サイドバー文字*/
     #side aside h4 {
-        font-size: 17px;
-        line-height: 26px;
+        font-size: 16px;
     }
 
     #side aside #mybox ul li ul li {
-        font-size: 17px;
-        line-height: 26px;
+        font-size: 16px;
     }
 
     /* オリジナルスタイルタブレット */

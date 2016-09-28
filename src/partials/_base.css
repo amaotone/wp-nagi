@@ -900,7 +900,6 @@ footer .head-telno a {
 #topnews .clearfix dd p {
     font-size: 16px;
     color: #666;
-    line-height: 26px;
 }
 
 #topnews .clearfix dd h5 a {
@@ -1020,14 +1019,8 @@ footer .head-telno a {
 }
 
 #side aside h4 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
-    line-height: 24px;
-    margin: 0px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 0px;
 }
 
 #side aside #mybox ul li ul li {
@@ -2221,7 +2214,6 @@ section {
 
     a {
         display: block;
-        background-color: rgba(255,255,255,.7);
         width: 100%;
         text-decoration: none;
         color: #444;
@@ -2229,9 +2221,11 @@ section {
         font-weight: bold;
         height: 32px;
         line-height: 32px;
+        opacity: .7;
+        background-color: #fff;
 
         &:hover {
-            background-color: rgba(255,255,255,.3);
+            opacity: 1;
         }
     }
 
@@ -2241,10 +2235,11 @@ section {
 }
 
 #side .kanren dl {
-    background-color: rgba(255,255,255,.7);
+    background-color: #fff;
     margin: 0 0 10px 0;
     padding: 0;
     border: none;
+    opacity: .7;
 
     dd {
         padding-left: 100px;
@@ -2269,10 +2264,25 @@ section {
         margin-bottom: 0;
     }
     &:hover {
-        background-color: rgba(255,255,255,.3);
-
-        img {
-            opacity: .3;
-        }
+        opacity: 1;
     }
+}
+
+.menu_underh2 {
+    opacity: .8;
+    padding: 10px 0;
+}
+
+.textwidget {
+    background-color: #fff;
+    padding: 10px;
+    opacity: .7;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+#side .kanren, #side #mybox ul {
+    margin-bottom: 20px;
 }
