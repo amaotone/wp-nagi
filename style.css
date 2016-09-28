@@ -3393,6 +3393,16 @@ section{
 
     margin-bottom: 20px;
 }
+
+#side *{
+
+    transition: .3s;
+}
+
+#side *:hover{
+
+    transition: .3s;
+}
 @media print, screen and (min-width: 960px){
 
     #wrapper{
