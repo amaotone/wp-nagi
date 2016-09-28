@@ -2273,7 +2273,7 @@ section {
     padding: 10px 0;
 }
 
-.textwidget {
+#side .textwidget {
     background-color: #fff;
     padding: 10px;
     opacity: .7;
