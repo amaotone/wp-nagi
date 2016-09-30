@@ -350,7 +350,6 @@
 
     /*電話番号*/
     .head-telno {
-        font-family: 'Montserrat', sans-serif;
         font-size: 25px;
         padding: 5px 10px;
         text-align: center;
@@ -361,7 +360,6 @@
     }
 
     .head-telno a {
-        font-family: 'Montserrat', sans-serif;
         color: #000;
     }
 
