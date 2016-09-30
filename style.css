@@ -1242,8 +1242,6 @@ footer h4 a{
 
 footer .head-telno a{
 
-    font-family: 'Montserrat', sans-serif;
-
     font-size: 25px;
 
     padding: 5px 10px;
@@ -3883,8 +3881,6 @@ section{
 
     .head-telno{
 
-        font-family: 'Montserrat', sans-serif;
-
         font-size: 25px;
 
         padding: 5px 10px;
@@ -3898,8 +3894,6 @@ section{
     }
 
     .head-telno a{
-
-        font-family: 'Montserrat', sans-serif;
 
         color: #000;
     }
